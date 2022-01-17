@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- page title  -->
+    <title>khanaSansar-Home</title>
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- fontawesome cdn link -->
+    <script src="https://use.fontawesome.com/your-embed-code.js"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- calling external js file -->
+    <script src="myscript.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- jquery CDN link -->
+    <script src="jquery-3.5.1.min.js"></script>
+
+    <!-- linking external css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- favicon image -->
+    <link rel="shortcut icon" href="images/favicon/favicon.png" type="image/x-icon">
+
+
+</head>
+
+<body>
+
+    <!-- navigation bar  -->
+    <nav class="black">
+        <div class="nav-wrapper container">
+            <a href="#!" class="brand-logo">Khana<span class="orange-text darken-3">Sansar</span></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Our Clients</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav black" id="mobile-demo">
+        <li><a class="white-text" href="#">Home</a></li>
+        <li><a class="white-text" href="#">About Us</a></li>
+        <li><a class="white-text" href="#">Services</a></li>
+        <li><a class="white-text" href="#">Our Clients</a></li>
+    </ul>
+
+    <!-- full width slider/carousel -->
+    <div class="carousel carousel-slider duration=1" id="carousel-1">
+        <div class="carousel-fixed-item black-text center-align">
+            <h4>Khana <span class="orange-text lighten-4">Sansar</span></h4>
+            <p>"Meals and Memories are made here"<p>
+            <a href="#"><button class="waves-effect waves-black btn btn-small orange darken-3 hoverable">About Us</button></a>
+        </div>
+        <a class="carousel-item" href="#"><img src="images/foods/img11.jpg" class="responsive-img"></a>
+        <a class="carousel-item" href="#"><img src="images/foods/img22.jpg" class="responsive-img"></a>
+        <a class="carousel-item" href="#"><img src="images/foods/img33.jpg" class="responsive-img"></a>
+
+    </div>
+
+    <div class="row carousel-row">
+        <div class="col s12 m6 l6">
+            <h3 class="center-align">Our <span class="orange-text darken-3">Dishes</span></h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur corporis delectus nam!. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Maiores asperiores, sapiente corporis minima aspernatur
+                magni. lorem20</p>
+
+            <div class="center-align rowbtn">
+                <a href="#"><button class="waves-effect waves-black btn btn-small orange darken-3 hoverable">Know more</button></a>
+            </div>
+        </div>
+
+        <div class="carousel col s12 m6 l6" id="carousel-2">
+            <a class="carousel-item"><img src="images/foods/img2.jpg"></a>
+            <a class="carousel-item"><img src="images/foods/img1.jpg"></a>
+            <a class="carousel-item"><img src="images/foods/img3.jpg"></a>
+            <a class="carousel-item"><img src="images/foods/img11.jpg"></a>
+            <a class="carousel-item"><img src="images/foods/img22.jpg"></a>
+            <a class="carousel-item"><img src="images/foods/img33.jpg"></a>
+        </div>
+
+    </div>
+
+    <div class="center-align">
+        <h3>Our <span class="orange-text darken-3">Services</span></h3>
+    </div>
+
+    <div class="row">
+        <div class="col s12 m4 l4">
+            <div class="card hoverable card-1">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator responsive-img" src="images/services/food-delivery.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Home delievery
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i
+                            class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m4 l4">
+            <div class="card hoverable card-2">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator responsive-img" src="images/services/table-reservation.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Reservation
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i
+                            class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m4 l4">
+            <div class="card hoverable card-3">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator responsive-img" src="images/services/online-food-order.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Online Order
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i
+                            class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col s12 m4 l4">
+            <div class="card hoverable card-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator responsive-img" src="images/services/catering-services.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Catering Services
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i
+                            class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m4 l4">
+            <div class="card hoverable card-5">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator responsive-img" src="images/services/digital-payment.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Digital Payment
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i
+                            class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m4 l4">
+            <div class="card hoverable card-6">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator responsive-img" src="images/services/free-desserts.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Free Desserts
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i
+                            class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="center-align">
+        <h4>Contact <span class="orange-text darken-3">Form</span></h4>
+    </div>
+    <div class="row">
+        <form class="col s10 m6 l6 offset-l3 offset-m3">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="text" type="text" class="validate" data-length="10">
+                    <label for="text">Mobile</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Your Message(Optional)</label>
+                </div>
+            </div>
+
+            <div class="center-align submitbtn">
+                <a onclick="M.toast({html: 'Your form has been submitted. Thank you!'})"
+                    class="waves-effect waves-black btn btn-small orange darken-3 hoverable"><i class="material-icons right">send</i>Submit</a>
+                    
+            </div>
+
+        </form>
+    </div>
+
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">We're KhanaSansar</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+                        content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Social Media Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="https://www.facebook.com" title="mainS">Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"></a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2022 Copyright KhanaSansar
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

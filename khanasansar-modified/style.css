@@ -1,0 +1,129 @@
+/* @media screen and (max-width: 700px) {
+    #carousel-1 h3 {
+      font-size: 20px;
+    }
+  } */
+
+.col h3{
+    margin-top: 4.5rem;
+}
+
+#carousel-1 .carousel-fixed-item{
+    bottom: 1px;
+}
+
+#carousel-1 .carousel-fixed-item p{
+    font-family:'The Nautigal', cursive;;
+}
+
+.right li a:hover{
+    color: darkorange;
+}
+
+#mobile-demo li .white-text:hover{
+    color: darkorange;
+    /* font-weight: bold; */
+}
+
+#carousel-1 .carousel-fixed-item button:hover{
+    background-color: white !important;
+    color: darkorange !important;
+}
+
+.sidenav li a:hover{
+    color: darkorange !important;
+}
+
+.rowbtn button:hover{
+    background-color: white !important;
+    color: darkorange !important;
+}
+
+.submitbtn a:hover{
+    background-color: white !important;
+    color: darkorange !important;
+}
+
+/* .carousel-row{
+    
+    
+} */
+
+/* try */
+/* .carousel-row{
+    height: 200px !important;
+} */
+
+/* additional */
+/* #carousel-2{
+    height: 250px !important;
+} */
+
+/* #carousel-2{
+    height:100px !important;
+} */
+
+/* #carousel-2{
+    position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} */
+
+/* additional */
+.services-cls{
+    margin: -1.053rem 0 1.168rem 0;
+}
+
+/* try */
+/* .carousel-item{
+    height: 100px;
+} */
+
+
+.card-1 img:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+.card-2 img:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+.card-3 img:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+.card-4 img:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+.card-5 img:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+.card-6 img:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+
+/* #ourdishes{
+    height: 20px;
+} */
+
+/* .row .col{
+    height: 250px !important;
+} */
+
+/* #ourdishes{
+    height: 0px !important;
+} */
+
+/* #ourdishes-row #ourdishes-col{
+    height: 200px !important;
+} */
