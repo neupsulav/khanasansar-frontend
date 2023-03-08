@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @neupsulav
 - 👀 I’m interested in Web Technologies
-- 🌱 I’m currently learning JS
+- 🌱 I’m currently learning MERN stack
 - 💞️ I’m looking to collaborate on projects based on web development
 - 📫 You can reach me via neupsulav@gmail.com
 
